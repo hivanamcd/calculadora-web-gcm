@@ -1,6 +1,8 @@
 language: java
-rvm: 1.8.7
-script: mvn package -Popenshift
+
+script: 
+- rvm use 1.8.7
+- mvn package -Popenshift
 deploy:
   provider: openshift
   user: hivanamaced@gmail.com
