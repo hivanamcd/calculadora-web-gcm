@@ -4,7 +4,7 @@ deploy:
   provider: openshift
   user: hivanamaced@gmail.com
   password:
-    secure: c0rD3+bcKwCQmOtlK9ALUYbpf1M0lpSEoK7SxTwuJElkPeSsFEjDAmqvsl3w6vPyDsKm8nDLBU/Ge6m2UFx3cv/shHhnje8b1AJMUxR/1da//u9d7ndZnMiXZNWqr/xya6zdJUx3kCF8K00DZuXqda+atuivZrF28IMKqYK+eM8=
+    secure: C105mt0c09PZPW3U01FVFDvPcytJas30kUm5yvb3cwD9iqjrRMcfYSyK0Pz3q8IIosfSnKeYleBIVotRr8/uon623LS7KC6ACfQ7wje72dWmK09m7ZSBIZx7Jm9XupY4CcLsWCKZQsPqCF6mui52zW4kMFY3f5jzxzv18iGCerQ=
   app: calculadora
   domain: hivanah
   on:
