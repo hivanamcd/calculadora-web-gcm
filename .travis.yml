@@ -1,14 +1,11 @@
 language: java
 
 script: 
-- rvm install ruby-1.8.7-p374
-- rvm use 1.8.7
 - mvn package -Popenshift
 deploy:
   provider: openshift
   user: hivanamaced@gmail.com
-  password:
-    secure: c0rD3+bcKwCQmOtlK9ALUYbpf1M0lpSEoK7SxTwuJElkPeSsFEjDAmqvsl3w6vPyDsKm8nDLBU/Ge6m2UFx3cv/shHhnje8b1AJMUxR/1da//u9d7ndZnMiXZNWqr/xya6zdJUx3kCF8K00DZuXqda+atuivZrF28IMKqYK+eM8=
+  password: passwordgcm
   app: calculadora
   domain: hivanah
   on:
