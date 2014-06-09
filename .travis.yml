@@ -8,4 +8,4 @@ deploy:
   app: calculadora
   domain: hivanah
   on:
-    repo: hivanamcd/calculadora
+    repo: hivanamcd/calculadora-web-gcm
