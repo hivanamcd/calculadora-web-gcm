@@ -6,5 +6,52 @@
   <packaging>war</packaging>
   <version>1.0</version>
   <name>calculadora</name>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.jboss.spec</groupId>
+      <artifactId>jboss-javaee-6.0</artifactId>
+      <version>1.0.0.Final</version>
+      <type>pom</type>
+      <scope>provided</scope>
+    </dependency>
+
+
+     <!-- Import the CDI API, we use provided scope as the API is included 
+         in JBoss AS 7 -->
+      <dependency>
+         <groupId>javax.enterprise</groupId>
+         <artifactId>cdi-api</artifactId>
+         <version>1.2</version>
+      </dependency>
+
+      <!-- Import the Common Annotations API (JSR-250), we use provided scope 
+         as the API is included in JBoss AS 7 -->
+      <dependency>
+         <groupId>org.jboss.spec.javax.annotation</groupId>
+         <artifactId>jboss-annotations-api_1.1_spec</artifactId>
+         <version>1.0.1.Final</version>
+      </dependency>
+
+      <!-- Import the Servlet API, we use provided scope as the API is included 
+         in JBoss AS 7 -->
+      <dependency>
+         <groupId>org.jboss.spec.javax.servlet</groupId>
+         <artifactId>jboss-servlet-api_3.0_spec</artifactId>
+	       <version>1.0.2.Final</version>
+      </dependency>
+
+    	<dependency>
+    		<groupId>org.jboss.logging</groupId>
+    		<artifactId>jboss-logging</artifactId>
+    		<version>3.1.4.GA</version>
+    	</dependency>
+
+  </dependencies>
 
 </project>
